@@ -25,7 +25,8 @@ int main(){
     }
 
     printf("Even Sum: %d\n", evenSum);
-    printf("Odd Sum: %d", oddSum);
+    printf("Odd Sum: %d\n", oddSum);
     return 0;
 
 }
+
