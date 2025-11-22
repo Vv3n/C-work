@@ -4,7 +4,13 @@ int main() {
     int N, i;
     
     if (scanf("%d", &N) != 1) {
-        return 1; 
+        printf("Error");
+        return 1;
+    }
+
+    if (N <= 0) {
+        printf("Error");
+        return 1;
     }
 
     for (i = 0; i < N; i++){
