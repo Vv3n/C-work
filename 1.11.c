@@ -5,7 +5,7 @@ int main(){
     float totalBill = 0.0;
     float vatAmount = 0.0;
 
-    printf("Please Enter Your Price And Code (1-4)\n");
+    printf("Please Enter Your Price And Code (1-3)\n");
     if(scanf("%f %d", &price_before_vat, &categoryCode) != 2){
         return 1;
     }
@@ -39,4 +39,5 @@ int main(){
     }
 
     return 0;
+
 }
