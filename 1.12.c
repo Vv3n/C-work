@@ -28,6 +28,9 @@ int main(){
                 totalBill = 599 + 50 + 5*(dataUsage_GB - 20);
                 break;
             }
+
+        default:
+            break;
     }
 
 
@@ -39,4 +42,5 @@ int main(){
     }
 
     return 0;
+
 }
