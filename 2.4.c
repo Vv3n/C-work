@@ -22,7 +22,7 @@ int main(){
     }
 
     if(principal > 0){
-        printf("Loan settled in %d months+. \n", monthCount);
+        printf("Loan settled morethan %d months+. \n", monthCount);
     }
     else{
         printf("Loan settled in %d months. \n", monthCount);
