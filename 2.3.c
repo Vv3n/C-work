@@ -30,7 +30,7 @@ int main(){
 
             break;
         case 3:
-            aprRate = 0.08f;
+            aprRate = 0.080f;
             break;
 
         default:
@@ -47,4 +47,5 @@ int main(){
     }
 
     return 0;
+
 }
