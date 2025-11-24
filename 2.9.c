@@ -5,7 +5,6 @@ int main(){
     int Stock;
     float totalPenalties = 0.0;
 
-    printf("Please enter quantityproduct,penalty and quantity list\n");
     if(scanf("%d %f %d", &initialStock, &PENALTY_FEE, &N) != 3){
         return 1;
     }
@@ -22,6 +21,7 @@ int main(){
                 Stock += quantity;
                 printf("Received [%d] units.\n", quantity);
                 break; 
+
             case 2:
                 if(quantity <= 0){
                     printf("Error: Quantity must be positive.\n");
@@ -35,6 +35,7 @@ int main(){
                     printf("FAILURE: Insufficient stock. PENALTY [%.2f] added.\n", PENALTY_FEE);
                 }
                 break;
+                
             case 3:
                 printf("Current Stock: %d\n", Stock);
                 printf("Total Penalties: %.2f\n", totalPenalties);
