@@ -10,7 +10,7 @@ int main(){
 
     while(score != -1){
         if(score > 100){
-            printf("This score is wrong try again\n");
+            printf("Scores must not great than 100\n");
         }
         else if(score >= 80){
             countA++;
@@ -23,11 +23,13 @@ int main(){
         }
         else if(score >= 50){
             countD++;
-        }\
+        }
         else{
             countF++;
         }
+
         printf("Please Enter socre (0-100):");
+
         if(scanf("%d", &score) != 1){
             break;
         }
