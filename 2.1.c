@@ -2,14 +2,14 @@
 int main(){
     int N, i;
 
-    printf("Please Enter Your Number (Morethan 0):");
+    printf("Please Enter Integer Number (Morethan 0):");
     if(scanf("%d", &N) != 1){
-        printf("Error no NUMBER...\n");
+        printf("Error no number...\n");
         return 1;
     }
 
     if(N < 1){
-        printf("Error...\n");
+        printf("Error number lessthan 1...\n");
         return 1;
     }
 
